@@ -1,5 +1,7 @@
-import Component from "../simple-button"
+"use client"
 
-export default function Page() {
-  return <Component />
+import { ThemeProvider } from "../components/theme-provider"
+
+export default function SyntheticV0PageForDeployment() {
+  return <ThemeProvider />
 }
